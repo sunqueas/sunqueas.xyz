@@ -132,7 +132,7 @@ h2 {
 }
 
 h2::after {
-  content: "";
+  content: '';
   display: block;
   height: 2px;
   width: 10rem;
@@ -216,7 +216,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .btn::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -258,7 +258,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .link__text::after {
-  content: "";
+  content: '';
   display: block;
   position: absolute;
   top: 0;
@@ -332,7 +332,7 @@ body:not(.user-is-tabbing) a:focus {
 }
 
 .nav__link::after {
-  content: "";
+  content: '';
   position: absolute;
   bottom: 0;
   left: 0;
@@ -359,7 +359,17 @@ body:not(.user-is-tabbing) a:focus {
 
 .header {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("./images/bg.jpg");
+    url('./images/bg.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-size: var(--font-size-normal);
+}
+
+.header-secondary {
+  background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
+    url('./images/bg_secondary.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -369,7 +379,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header-schlobohm_us {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("./images/forthcoming/us/us_liner.jpg");
+    url('./images/forthcoming/us/us_liner.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
@@ -379,7 +389,7 @@ body:not(.user-is-tabbing) a:focus {
 
 .header-jensen {
   background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4)),
-    url("./images/jensen/jensen_bg_wc.jpg");
+    url('./images/jensen/jensen_bg_wc.jpg');
   height: 100vh;
   background-size: cover;
   background-position: center;
